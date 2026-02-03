@@ -1,0 +1,114 @@
+\* Alondra Rodriguez\*
+
+/* PAGE BACKGROUND */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #b7dde8;
+}
+
+body {
+  padding: 14px 12px 30px;
+  color: #000;
+}
+
+/* MAIN TITLE */
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0px 0 34px;
+}
+
+/* SECTION HEADERS */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px 0 18px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 20px 0 8px;
+}
+
+/* BODY TEXT */
+p, li, td, th {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12.35px;
+  line-height: 1.35;
+}
+
+/* 2nd PARAGRAPH BOX */
+#paragraph2{
+  background:#fff;
+  border:4px solid #006400;
+  width: 55%;
+  margin: 16px 0 18px 13px;   /* left aligned like professor */
+  padding:18px 26px;
+  line-height:1.9;
+  box-sizing:border-box;
+}
+
+/* BLUE PARAGRAPHS */
+.blue {
+  background-color: #0a1c88;
+  color: #ffffff;
+  padding: 16px 18px;
+  margin: 14px 0;
+  border: 1.5px solid #000000;
+}
+
+/* LINKS */
+a {
+  color: #1f3fd6;
+  text-decoration: underline;
+}
+
+/* W3SCHOOLS LINK (DIFFERENT COLOR) */
+a[href*="w3schools"] {
+  color: #b22222;
+}
+
+/* ORDERED LIST (01, 02, etc.) */
+ol {
+  list-style-type: decimal-leading-zero;
+  padding-left: 30px;
+  margin: 6px 0 18px;
+}
+
+ol li {
+  margin: 2px 0;
+}
+
+/* TABLE */
+table {
+  border-collapse: collapse;
+  width: 34%;
+  background-color: #ffffff;
+  font-size: 6px;
+}
+
+/* TABLE CELLS */
+th, td {
+  border: 1px solid #666666;
+  padding: 4px 8px;
+  vertical-align: top;
+  font-size: 10.5px
+}
+
+/* TABLE HEADER */
+th {
+  background-color: #c0c0c0;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* TABLE BODY CELLS */
+td {
+  background-color: #f2f2f2;
+}
